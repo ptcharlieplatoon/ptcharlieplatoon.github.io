@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>TITLE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Your link to your CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Your Javascript file goes here -->
+    <script src="app.js" async defer></script>
+  </head>
+  <body>
+    <!-- your HTML should go here -->
+    <nav>
+      <div>
+        <h1 id="welcome">Welcome!</h1>
+        <div id='get-username'>
+          <p>Please enter your name:</p>
+          <input id="user-name" placeholder="User Name">
+          <button id="submit-username">Submit UserName</button>
+        </div>
+      </div>
+      <h1>Let's Play the Guessing Number Game!</h1>
+    </nav>
+    <div>
+      <p>Guess a number between 1 and 100</p>
+    </div>
+    <div>
+      <p id="game-message">Input a number below and click "Submit Number"</p>
+    </div>
+    <form id="input-form" >
+      <input type="text" id="input-number" name="inputNumber" placeholder="Ex: 50">
+      <button type="submit">Submit Number</button>
+    </form>
+    <div>
+      <ol id="number-list"></ol>
+    </div>
+  </body>
+</html>
